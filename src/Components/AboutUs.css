@@ -18,7 +18,8 @@
     font-size: 40px; /* Adjust heading font size */
     margin-bottom: 10px;
     font-weight: bold;
-    font-family:cursive; /* Add space below the heading */
+    font-family:cursive;
+     /* Add space below the heading */
   }
   
   /* Style for the paragraph */
