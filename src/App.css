@@ -34,7 +34,7 @@ html, body {
 .logo img {
   width: 100px;
   height: 100px; 
-  padding: 10px/* Adjust as needed */
+  padding: 10px; /* Adjust as needed */
 }
 
 /* Navigation styles */
@@ -50,7 +50,6 @@ html, body {
   padding: 10px;
   font-weight: bold;
   font-size: larger;
-
 }
 
 .nav-links li:last-child {
@@ -64,4 +63,21 @@ html, body {
 
 .nav-links li a:hover {
   text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .header {
+    height: 80px; /* Adjust header height for smaller screens */
+  }
+
+  .logo img {
+    width: 80px; /* Adjust logo size for smaller screens */
+    height: 80px; 
+    padding: 5px; /* Adjust logo padding for smaller screens */
+  }
+
+  .nav-links li {
+    font-size: smaller; /* Adjust font size for navigation links on smaller screens */
+  }
 }
