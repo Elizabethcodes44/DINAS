@@ -1,0 +1,33 @@
+/* contactus.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for social media icons */
+  .footer {
+    text-align: center; /* Center align the social media icons */
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Style for the heading */
+  .footer h2 {
+    margin-bottom: 10px; /* Add space between heading and icons */
+  }
+  
+  /* Style for social media icons */
+  .footer a {
+    display: inline-block;
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  
+  /* Style for social media icon images */
+  .footer img {
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    border-radius: 50%; /* Make the icons circular */
+  }
+  

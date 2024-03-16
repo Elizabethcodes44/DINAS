@@ -1,0 +1,27 @@
+/* AboutUs.css */
+
+/* Style for the container */
+.imagetext {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    
+   /* Make the container full height of the viewport */
+    color: white;
+   padding-left: 200px;
+   padding-right: 200px;
+   padding-top: 50px;
+
+  }
+  
+  /* Style for the heading */
+  .imagetext h1 {
+    font-size: 30px; /* Adjust heading font size */
+    margin-bottom: 10px; /* Add space below the heading */
+  }
+  
+  /* Style for the paragraph */
+  .imagetext p {
+    font-size: 16px; /* Adjust paragraph font size */
+    line-height: 1.5; /* Adjust line height for better readability */
+  }
+  
