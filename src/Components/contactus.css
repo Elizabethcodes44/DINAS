@@ -11,11 +11,15 @@
   .footer {
     text-align: center; /* Center align the social media icons */
     margin-top: 20px; /* Adjust margin as needed */
+    padding-top: 80px;
   }
   
   /* Style for the heading */
   .footer h2 {
     margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
      /* Add space between heading and icons */
   }
   
@@ -23,6 +27,8 @@
   .footer a {
     display: inline-block;
     margin: 0 10px; /* Adjust margin as needed */
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   /* Style for social media icon images */
@@ -31,4 +37,17 @@
     height: 40px; /* Adjust height as needed */
     border-radius: 50%; /* Make the icons circular */
   }
-  
+  @media screen and (max-width: 768px) {
+    .footer {
+        padding-top: 50px; /* Adjust padding as needed */
+    }
+
+    .footer h2 {
+        font-size: 24px; /* Adjust font size as needed */
+    }
+
+    .footer img {
+        width: 30px; /* Adjust width as needed */
+        height: 30px; /* Adjust height as needed */
+    }
+}
