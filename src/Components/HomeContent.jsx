@@ -1,4 +1,5 @@
 // HomeContent.js
+import './HomeContent.css';
 import image from "../../assets/dinas.jpg";
 import image2 from "../../assets/dinas2.jpg";
  // Style as needed
