@@ -33,7 +33,7 @@
 /* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
   .images img {
-      width: 100%; /* Make images responsive by setting width to 100% */
+      width: 50%; /* Make images responsive by setting width to 100% */
       height: auto; /* Automatically adjust height to maintain aspect ratio */
       margin-right: 0; /* Remove margin between images */
       margin-top: 10px; /* Adjust margin between images */
