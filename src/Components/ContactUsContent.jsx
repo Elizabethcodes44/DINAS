@@ -12,7 +12,7 @@ function ContactUsContent() {
       <div className="footer">
         <div className="chat">
           <h2>CHAT WITH US</h2>
-          <a href="https://wa.me/2348071971717" target="_blank">
+          <a href="https://wa.me/2349024239183" target="_blank">
             <img src = {whatsapp}  className="whatsapp_icon" alt= "whatsapp"/>
           </a>
         </div>
